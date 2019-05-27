@@ -1,0 +1,18 @@
+@import url("../fonts/poppins/poppins.css");
+
+body{
+	margin-top: 56px;
+	font-family: "poppins", "arial", sans-serif;
+}
+
+.txt-italic{
+	font-style: italic;
+}
+
+.txt-bold{
+	font-weight: bold;
+}
+
+footer{
+  text-align: center;
+}
