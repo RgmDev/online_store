@@ -13,6 +13,37 @@ body{
 	font-weight: bold;
 }
 
+.pro-portada{
+  text-align: center;
+}
+
+.pro-portada h2{
+  margin-bottom: .7em
+}
+
+.pro-portada img{
+  border: 1px solid grey;
+  margin: 1.9em auto;
+}
+
+.pro-portada p span.precio-oferta{  
+  font-size: 1.9em;
+}
+
+.pro-portada p.precio-anterior{
+  font-style: italic;
+  text-decoration: line-through;
+  margin-bottom: 0;
+}
+
+.pro-portada p button{
+  font-size: .9em;
+  display: inline-block;
+  width: 8em;
+}
+
 footer{
   text-align: center;
 }
+
+
