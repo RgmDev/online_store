@@ -1,7 +1,9 @@
 <?php 
+include('./assets/inc/funciones.php'); 
+
 $pagina="productos";
 $tituloPagina="Online Store - Productos";
-include('./header.php'); 
+include('./assets/inc/header.php'); 
 ?>
 	<section>
 		
@@ -9,4 +11,16 @@ include('./header.php');
 
 	</section>
 
-<?php include('./footer.php'); ?>
+	<section class="container">
+
+	<div class="row">
+	<?php
+		
+		echo pro_productos($ofertas);
+		
+	?>
+	</div>
+
+	</section>
+
+<?php include('./assets/inc/footer.php'); ?>

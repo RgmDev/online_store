@@ -1,7 +1,7 @@
 <?php 
 $pagina="nosotros";
 $tituloPagina="Online Store - Nosotros";
-include('./header.php'); 
+include('./assets/inc/header.php'); 
 ?>
 	<section>
 		
@@ -9,4 +9,4 @@ include('./header.php');
 
 	</section>
 	
-<?php include('./footer.php'); ?>
+<?php include('./assets/inc/footer.php'); ?>

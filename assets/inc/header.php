@@ -34,16 +34,16 @@
 				
 				<ul class="navbar-nav">
 					<li class="nav-item <?php if($pagina=="inicio"){echo 'active';} ?>">
-						<a class="nav-link" href="index.php">Inicio<?php if($pagina=="inicio"){echo '<span class="sr-only">(current)</span>';} ?></a>
+						<a class="nav-link" href="index.html">Inicio<?php if($pagina=="inicio"){echo '<span class="sr-only">(current)</span>';} ?></a>
 					</li>
 					<li class="nav-item <?php if($pagina=="nosotros"){echo 'active';} ?>">
-						<a class="nav-link" href="nosotros.php">Nosotros<?php if($pagina=="nosotros"){echo '<span class="sr-only">(current)</span>';} ?></a>
+						<a class="nav-link" href="nosotros.html">Nosotros<?php if($pagina=="nosotros"){echo '<span class="sr-only">(current)</span>';} ?></a>
 					</li>
           <li class="nav-item <?php if($pagina=="productos"){echo 'active';}?>">
-						<a class="nav-link" href="productos.php">Productos<?php if($pagina=="productos"){echo '<span class="sr-only">(current)</span>';} ?></a>
+						<a class="nav-link" href="productos.html">Productos<?php if($pagina=="productos"){echo '<span class="sr-only">(current)</span>';} ?></a>
 					</li>
           <li class="nav-item <?php if($pagina=="contacto"){echo 'active';}?>">
-						<a class="nav-link" href="contacto.php">Contacto<?php if($pagina=="contacto"){echo '<span class="sr-only">(current)</span>';} ?></a>
+						<a class="nav-link" href="contacto.html">Contacto<?php if($pagina=="contacto"){echo '<span class="sr-only">(current)</span>';} ?></a>
 					</li>
 				</ul>
 				
