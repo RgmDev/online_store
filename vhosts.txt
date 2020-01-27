@@ -1,0 +1,13 @@
+# httpd-vhosts.conf
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs"
+    ServerName localhost
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/proyectos/online_store"
+    ServerName shop.com
+</VirtualHost>
+
+# /etc/hosts
+127.0.0.1			localhost
+127.0.0.1			shop.com
